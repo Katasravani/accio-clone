@@ -291,6 +291,17 @@ padding:35px;
 .sidebar:hover{
     box-shadow: 10px 10px 20px rgb(154, 150, 150) ;
 }
+#name{
+    display: flex;
+width: 366px;
+padding: 0px;
+height: 40px;
+align-items: center;
+gap: 10px;
+border: none;
+border-radius: 8px;
+background-color: #FFF;
+}
 #box-1{
     width: 291px;
     color:#2B2F34;
@@ -331,6 +342,10 @@ background:linear-gradient(277deg, #992FED 0%, #2F80ED 100%);
     scale: 1.05;
     transition: all 0.5s ease;
 }
+#btn{
+    scale: 1.05;
+    transition: all 1s ease;
+}
 #click{
     width: 291px;
     color: #818D9D;
@@ -339,6 +354,26 @@ font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: 150%; /* 21px */
+}
+#acciojob{
+    color: #525252;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 21px */
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 10px;
+}
+.withlove{
+    display: inline-flex;
+padding: 12px ;
+height: 40px;
+align-items: center;
+border-radius: 23px;
+background: #FFF;
+box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.12);
 }
 #terms{
     width: 291px;
@@ -361,6 +396,8 @@ padding-top: 0px;
 }
 .beginner:hover{
     box-shadow: 10px 10px 20px skyblue;
+    scale: 1.05;
+    transition: all 0.5s ease-in;
 }
 .beginner-2{
     width: 498px;
@@ -372,6 +409,8 @@ padding-top: 0px;
 }
 .beginner-2:hover{
     box-shadow: 10px 10px 20px skyblue;
+    scale: 1.05;
+    transition: all 0.5s ease-in;
 }
 .records{
     display: flex;
@@ -408,6 +447,8 @@ color: white;
 }
 #learn:hover{
     box-shadow: 5px 5px 10px gray;
+    scale: 1.05;
+    transition: all 1s ease-in-out;
 }
 .buttons-1{
     display: flex;
